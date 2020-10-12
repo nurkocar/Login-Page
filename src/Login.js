@@ -32,7 +32,9 @@ const Login = () => {
                         />
 
                         <Input holder='Eposta adresinizi giriniz..' />
-                        <Input holder='Sifrenizi giriniz..' />
+                        <Input holder='Sifrenizi giriniz..'
+                        secure = {true}
+                        />
 
                         <Button text='Giris Yap' />
                     </View>
